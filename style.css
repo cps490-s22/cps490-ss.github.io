@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    margin: 0;
+    overflow-x: hidden;
+    background: black;
+    background-size: cover
+}
+.nav {
+   color: black;
+}
+.text-right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ img {
+    max-width:100%;
+    margin:auto;
+    display:block;
+ }
+ 
+
+ .home {
+    background-color: black;
+    display: flex;
+
+ }
+ .projectoverview{ 
+    background-color: black;
+}
+ .meettheteam.html{
+    background-color: black;
+   font-family: 'Times New Roman', Times, serif
+
+ }
+ .meettheteam{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-gap: 40px;
+   margin-top: 50px;
+}
+.column{
+   float:right;
+   width:50%;
+   padding:10px;
+   text-align:center;
+}
+.container-2{
+   float:center;
+   width: 67%;
+   padding:10px;
+   text-align:center;
+}
