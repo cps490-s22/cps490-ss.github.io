@@ -8,9 +8,34 @@ body{
     background: black;
     background-size: cover
 }
-.nav {
-   color: black;
-}
+
+      .navbar {
+         width: 100%;
+         float: left;
+         margin: 0 0 1em 0;
+         padding: 0;
+         background-color: #f2f2f2;
+         border-bottom: 1px solid #ccc;  }
+      .navbar ul {
+         list-style: none;
+         width: 800px;
+         margin: 0 auto;
+         padding: 0; }
+      .navbar li {
+         float: left; }
+      .navbar li a {
+         display: block;
+         padding: 8px 15px;
+         text-decoration: none;
+         font-weight: bold;
+         color: #069;
+         border-right: 1px solid #ccc; }
+      .navbar li:first-child a {
+         border-left: 1px solid #ccc; }
+      .navbar li a:hover {
+         color: #c00;
+         background-color: #fff; }
+
 .text-right{
     text-align: right;
 }
@@ -32,13 +57,13 @@ body{
     display:block;
  }
  
-
- .home {
+ .index.html {
     background-color: black;
     display: flex;
+    background-image: url('img src="images\bfa.jpg"');
 
  }
- .projectoverview{ 
+ .projectoverview.html{ 
     background-color: black;
 }
  .meettheteam.html{
@@ -64,3 +89,16 @@ body{
    padding:10px;
    text-align:center;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+   float: left;
+   width: 50%;
+   padding: 5px;
+ }
+ 
+ /* Clear floats after image containers */
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
