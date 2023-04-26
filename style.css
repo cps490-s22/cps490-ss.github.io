@@ -12,14 +12,14 @@ body{
       .navbar {
          width: 100%;
          float: left;
-         margin: 0 0 1em 0;
-         padding: 0;
+         margin: 0 0 5em 0;
+         padding: 10;
          background-color: #f2f2f2;
-         border-bottom: 1px solid #ccc;  }
+         border-bottom: 5px solid #ccc;  }
       .navbar ul {
          list-style: none;
-         width: 800px;
-         margin: 0 auto;
+         width: 1000px;
+         margin: 10 auto;
          padding: 0; }
       .navbar li {
          float: left; }
@@ -89,14 +89,14 @@ body{
    padding:10px;
    text-align:center;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-   float: left;
-   width: 50%;
-   padding: 5px;
+.column-2 {
+   float: center;
+   width: 100%;
+   padding: 10px;
+   text-align:center;
  }
  
- /* Clear floats after image containers */
+ 
  .row::after {
    content: "";
    clear: both;
